@@ -1,0 +1,594 @@
+
+
+/* HEADER SCTION*/
+ #stat{
+  position: fixed;
+  width:100%;
+ }
+
+.navbar-nav .nav-link {
+    /* Your custom CSS styles here */
+    color: rgb(28, 19, 19); 
+    font-weight: bold; 
+    justify-content: center;
+   /*  position: fixed; */
+    
+                     }
+
+  .navbar-brand{
+    color: black;
+    justify-content: center;
+    margin-top:20px ;
+    font-family:fantasy;
+    /* position: fixed; */
+    
+    
+     
+  }
+  
+ 
+  .nav-link {
+  
+    margin-top:0px ;
+    margin-bottom:-20px ;
+    margin-left:100px;
+    margin-right: 70px; 
+    /* position: fixed; */
+  }
+  
+  /* HERO SCTION*/
+      
+      .background-image {
+    background-image: url('images/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+     height: 600px; /* Adjust the height as needed */
+     padding-top: 90px;
+   
+
+   
+  }
+  .background-image h1{
+         text-align: center;
+         margin-top: 13%;
+         font-weight: 800;
+         
+       }
+
+     /*   BATCH SECTION  */
+
+        #container{
+                    width: 100px;
+                    height: 50px;
+                    color: rgb(193, 9, 9);
+                    margin-top:-60px;
+                    transform: translateY(4px);
+
+        }
+    
+      
+
+       .home {
+        width:850px; 
+        height: 100px; 
+        background-color: white;
+        margin-left: 250px;
+        margin-bottom: 90px;
+        padding-bottom: -400px;
+        padding-top: 20px;
+        justify-content: center;
+        display: flex;
+
+      }
+      #container ,.home,
+        .arrow{
+       /*  margin-right: -80px; */
+       padding-right: 1px;
+       transform: scaleX(20px);
+      }
+      
+
+       .home img{
+        width: 25px;
+        height: 16px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 70px;
+        
+       }
+     
+       .home h6{
+        margin-top: 10px;
+        padding-left: 10px;
+       }
+
+    .home img {
+    transition: transform 0.3s ease;/*  Add smooth transition effect */ 
+    }
+    
+    .home img:hover {
+       transform: scale(1.1);/*  Scale up the image on hover */ 
+    }
+    
+    .home h6 {
+      text-decoration: underline;
+       text-decoration-skip-ink: none; /* This prevents the underline from affecting spaces */ 
+       transition: color 0.3s ease;/*  Add smooth transition effect */ 
+    }
+    
+    .home h6:hover {
+    color: red; /* Change text color on hover */ 
+    }
+    
+
+   /*  RESPONSIVE  */
+
+   
+/* Media queries for iPhone and mobile screens */
+@media only screen and (max-width: 768px) {
+  .home {
+      flex-direction:column;
+      align-items: center;
+      text-align: center;
+      margin-left: 130px;
+      /* margin-right: 1000px; */
+      padding-right: 100px;
+      overflow-x: hidden;
+      /* background: rgb(168, 20, 20); */
+      background: white;
+      width: 150px;
+      height: 340px;
+      display: grid;
+     /*  margin-top: -400x; */
+      /* padding-top: 100px; */
+  }
+
+  #container{
+    display: grid;
+    /* width: 100px; */
+    /* height: 50px; */
+    color: rgb(193, 9, 9);
+    margin-top:-90px;
+    flex-direction: column;
+
+
+}
+.home h6{
+  color: black;
+   padding-left: 90px;
+}
+
+.home img{
+  width: 25px;
+  height: 16px;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left:11  0px;
+  flex-direction: row;
+  
+ }
+
+
+
+}
+
+/* EXPERIENCE SECTION */
+
+.color{
+  background-color: #ECF0F1;
+ /*  color: #ECF0F1; */
+}
+#experience{
+  background-color: #ECF0F1;
+  height: 600px;
+  margin-bottom: 100px;
+padding-top: 140px;
+}
+
+#experience h2{
+    align-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 500px;
+   padding-bottom: 60px;
+   margin-top: -50px;
+   margin-bottom: -30px;
+}
+
+.exp{
+
+  display:flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  
+}
+
+.batche1 {
+  background-image:url(images/1.jpeg);
+  padding-top: 150px;
+  padding-bottom:120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 70px;
+  transform: translateX(15px);
+}
+  
+.bech1{
+  background-image:url(images/chip.jpeg);
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 35px;
+  margin-bottom: -100px;
+  
+}
+
+
+.batche2 {
+  background-image:url(images/2.jpeg);
+  padding-top: 150px;
+  padding-bottom:120px;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-left: -110px;
+  transform: translateX(18px);
+}
+  
+.bech2{
+  background-image:url(images/chip.jpeg);
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 90px;
+  padding-right: 35px;
+  margin-bottom: -100px;
+  
+}
+.bech2 h3{
+  transform:translateX(-36px);
+
+}
+.batche3 {
+  background-image:url(images/3.jpeg);
+  padding-top: 150px;
+  padding-bottom:120px;
+  padding-left: 30px;
+  padding-right: 90px;
+  
+  margin-right: 50px;
+  margin-left:0px ;
+  transform: translateX(-90px);
+}
+  
+ .bech3{
+  background-image:url(images/chip.jpeg);
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 50px;
+  margin-bottom: -100px;
+  transform: translateX(60px);
+  margin-left: -70px;
+
+  
+}
+.head{
+  padding-right: 70px;
+  transform: translateX(30px);
+  
+}
+/*  */
+/* responsive */
+
+@media only screen and (max-width: 768px){
+  #container{
+    flex-direction: wrap;
+  }
+  .exp{
+    flex-direction: column;
+    flex-direction: grid;
+    margin-top: 50p;
+}
+  .experience{
+    flex-direction: grid;
+    flex-direction: column;
+    flex-direction: wrap;
+  }
+  }
+/* //////////////////////////////////////////// */
+  
+  
+  @media (max-width: 768px) {
+    #experience{
+      background-color: #ECF0F1;
+      height: 1700px;
+      /* margin-bottom: 100px; */
+    /* padding-top: 140px; */
+    }
+  
+    .exp {
+      flex-direction: column; /* Change to a single column layout on smaller screens */
+      align-items: center; /* Center items vertically */
+      display: grid;
+    }
+  
+
+    #experience h2{
+      /* overflow-x: hidden; */
+     margin-top:150px;
+     margin-right: 1000px;
+     margin-left: -350px;
+     /* margin-bottom: ; */
+     padding-right: -1000px;
+     /* padding-top:  */
+     /* padding-left: ; */
+     /* padding-bottom: ; */
+     display: flex;
+     flex-direction: row;
+
+    }
+    .batche1,
+    .batche2,
+    .batche3 {
+      width: auto; /* Allow items to occupy full width on smaller screens */
+      margin: 20px; /* Reduce margin for smaller screens */
+      flex-direction: column;
+    }
+    .batche3{
+      margin-left: 140px;
+    }
+    .batche2{
+      margin-right: 140px;
+    }
+  
+    .batche1{
+      margin-right: 140px;
+    }
+  
+  
+    .bech1,
+    .bech2,
+    .bech3 {
+      width: auto; /* Allow items to occupy full width on smaller screens */
+      flex-direction: column;
+    }
+
+  }
+
+
+
+             /* PRIRATE SECTION  */
+              #holidays{
+                
+                text-align: center;
+                 margin-top: -180px ;
+                 margin-bottom:70px;
+                
+              }
+
+              #holidays .btn{
+                border-radius: 25px;
+              }
+
+
+                  /*  QUERY RELATED SECTION  */
+                  #Quest{
+                    margin-bottom: 0px;
+                    transform: translateY(-130px);
+                   
+                  }
+
+                  .heed{
+                    align-items: center;
+                    background:#ECF0F1;
+                   /* transform: translateX(600px); */
+                   justify-content: center;
+              padding-left: 580px;
+              padding-top: -400px;
+              transform: translateX(-4px);
+              padding-bottom: 30px;
+              font-family;
+                  }
+                   .query{
+                    align-items: center;
+                    display: flex;
+                    
+
+                   }
+
+                   .query img { 
+                    
+                         margin-left: 200px;
+                         margin-right: -150px;
+                         margin-top: -100px;
+                        /*  transform: translateY(-30px); */
+
+                   }
+
+                     .query h3{
+                           padding-top: 100px;
+                           padding-left: 50px;
+                           flex-direction:row;
+                           margin-right: 1px;
+                           transform: translateX(20);
+                           transition: linear;
+                     }
+                     .query p{
+                      padding-left: -100px;
+                     /*  padding-top :-1000px; */
+                      margin-left:-230px;
+                      margin-right: 130px;
+                      transform: translateX(60px);
+                      margin-top: 320px;
+                     /*  padding-right: -200px; */
+                     }
+
+                     /* Apply styles to each Quest container */
+
+/* Media query for desktop view */
+@media screen and (min-width: 768px) {
+  /* Arrange Quest containers in row */
+  
+}
+
+
+
+/* Media query for desktop view */
+@media screen and (min-width: 768px) {
+  /* Arrange Quest containers in row */
+  #Quest {
+    display: flex;
+  }
+
+ 
+
+   /*  ContactForm section */
+
+              .contactForm{
+                /* padding-left: 800px; */
+               /*  transform: translateX(2px); */
+                transform: translatey(-480px);
+                width: 400px;
+                height: 420px;
+                color: black;
+                background-color:white;
+                padding-top: 30px;
+                padding-bottom: 450px;
+                padding-left: 50px;
+                margin-left: 850px;
+                
+
+              }
+
+              #form {
+                width:100%;
+                height: 680px;
+                justify-content: center;
+               
+              }
+      #form img{
+        width:100%;
+        height: 730px;
+        justify-content: center;
+       margin-top: -50px;
+       /* margin-top: -100px; */
+     
+      }
+
+              /* Style for the form */
+form {
+  width: 300px; 
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+button[type="submit"] {
+  
+  width: 80px;
+  transform: translateX(1px);
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color:red; 
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 13px ;
+}
+
+button[type="submit"]:hover {
+  background-color:blue;
+
+}
+
+
+.sr-only {
+  
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+                                /*  FOOTER SCETION  */
+                                .footer {
+                                  background-color: #262d31;
+                                  color: #ffffff;
+                                  padding: 40px 0;
+                                  /* transform: translateY(-10px); */
+                                 overflow-y: hidden;
+                                
+                                
+                               }
+                                
+                                .footer-content {
+                                  max-width: 1200px;
+                                  margin: 0 auto;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  padding-top: 20px;
+                                  
+
+                                }
+                                
+                                .footer-column {
+                                  flex: 1;
+                                  padding: 0 20px;
+                                  
+
+                                }
+                                
+                                .footer-column h3 {
+                                  margin-bottom: 20px;
+                                  font-weight: 400px;
+                                }
+                                
+                                .footer-column ul {
+                                  list-style: none;
+                                  padding: 0;
+                                }
+                                
+                                .footer-column ul li {
+                                  margin-bottom: 10px;
+                                }
+                                
+                                .footer-column ul li a {
+                                  color: #d9b4b4;
+                                  text-decoration: none;
+                                }
+                                
+                                .footer-column ul li a:hover {
+                                  text-decoration: underline;
+                                }
+                                .adres{
+                                     padding-left: 50px;
+                                     margin-left: 90px;
+                                     margin-top:30px;
+                                }
+                                .adres p{
+                                  color: #d9b4b4;
+                                }
+                                .adres h6{
+                                  color: #d9b4b4;
+                                }
+                                .adres h4{
+                                  font-weight: 400px;
+                                }
+                                
