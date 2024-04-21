@@ -1,0 +1,84 @@
+
+
+
+  /* (1) */
+  .card1 {
+    width: 280px;
+    /* height: 290px; */
+    height: 300px;
+    border: 0px solid #ccc; 
+    text-align: center;
+    /* /* display: flex;   */
+    gap: 200px; 
+    flex-direction: row; 
+    
+}
+
+.main-image1 img {
+    width: 280px;
+   /*  height: 180px; */
+   height: 180px;
+}
+
+/* (2) */
+.main-image2 img {
+    width: 280px;
+    height: 180px;
+}
+
+.main-image3 img {
+    width: 280px;
+    height: 180px;
+}
+.thumbnails3 img {
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    transform: translatey(0px);
+   /*  display: block;  */
+    margin-top: 200px;
+    display: flex;
+}
+
+/* (4) */
+.main-image4 img {
+    width: 280px;
+    height: 180px;
+}
+.thumbnails{
+    height: 1000px;
+}
+
+.thumbnails img {
+    width: 4000px;
+    height: 46px;
+    cursor: pointer;
+    transform: translateX(0px);
+    
+}
+
+.thumbnails {
+    display: flex; 
+    gap: 0px;
+}
+ 
+
+/* icons section  */
+.icon-section {
+    display: flex;
+    justify-content: center; /* Align icons horizontally at the center */
+  }
+  
+  .icon-section span {
+    margin-right: 10px; /* Adjust spacing between icons */
+  }
+  
+  .icon-section img {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+   transform: translateX(-60px);
+   margin-right:19px;
+   margin-bottom: 26px;
+    /* Add additional styling as needed */
+  }
+  
