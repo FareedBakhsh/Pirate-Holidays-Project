@@ -21,6 +21,11 @@
     margin-top:20px ;
     font-family:fantasy;
     /* position: fixed; */
+    background:red;
+    width:160px;
+    padding-left: 7px;
+    border-radius: 8px;
+    padding-top:5px;
     
     
      
@@ -35,11 +40,18 @@
     margin-right: 70px; 
     /* position: fixed; */
   }
+     .nav-link:hover{
+    background: red;
+   /*  border-radius: 20px; */
+     }
+     .btn:hover{
+background: yellow;
+     }
   
   /* HERO SCTION*/
       
       .background-image {
-    background-image: url('hero.jpeg');
+    background-image: url('images/hero.jpeg');
     background-size: cover;
     background-position: center;
      height: 600px; /* Adjust the height as needed */
@@ -204,7 +216,7 @@ padding-top: 140px;
 }
 
 .batche1 {
-  background-image:url(1.jpeg);
+  background-image:url(images/1.jpeg);
   padding-top: 150px;
   padding-bottom:120px;
   padding-left: 30px;
@@ -214,7 +226,7 @@ padding-top: 140px;
 }
   
 .bech1{
-  background-image:url(chip.jpeg);
+  background-image:url(images/chip.jpeg);
   
   padding-top: 30px;
   padding-bottom: 30px;
@@ -226,7 +238,7 @@ padding-top: 140px;
 
 
 .batche2 {
-  background-image:url(2.jpeg);
+  background-image:url(images/2.jpeg);
   padding-top: 150px;
   padding-bottom:120px;
   padding-left: 40px;
@@ -236,7 +248,7 @@ padding-top: 140px;
 }
   
 .bech2{
-  background-image:url(chip.jpeg);
+  background-image:url(images/chip.jpeg);
   
   padding-top: 30px;
   padding-bottom: 30px;
@@ -250,7 +262,7 @@ padding-top: 140px;
 
 }
 .batche3 {
-  background-image:url(3.jpeg);
+  background-image:url(images/3.jpeg);
   padding-top: 150px;
   padding-bottom:120px;
   padding-left: 30px;
@@ -262,7 +274,7 @@ padding-top: 140px;
 }
   
  .bech3{
-  background-image:url(chip.jpeg);
+  background-image:url(images/chip.jpeg);
   
   padding-top: 30px;
   padding-bottom: 30px;
@@ -360,16 +372,59 @@ padding-top: 140px;
 
 
              /* PRIRATE SECTION  */
+             /* .row1{ */
+              /* height: 228px; */
+              /* display: flex; */
+                           /*  */
+             /* } */
+             /* .row2{ */
+              /* height: 228px; */
+              /* display: flex; */
+              /* margin-top: 15px; */
+                           /*  */
+             /* } */
               #holidays{
                 
                 text-align: center;
                  margin-top: -180px ;
-                 margin-bottom:70px;
+                /*  margin-bottom:70px; */
                 
               }
 
+              #holidays h2{
+                   margin-top: 140px;
+                   margin-bottom: 35px;
+              }
+              h2{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+              }
+              body{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+              }
               #holidays .btn{
                 border-radius: 25px;
+                transform: translateX(-120px);
+               
+                
+
+               /* transform: translateY(29px); */
+              }
+            /*   #holidays */ .btn:hover{
+                
+                color: yellow;
+              }
+
+
+              /* #holidays  */h4{
+                text-align: start;
+                      font-size: 34px;
+                      font-family:Georgia, 'Times New Roman', Times, serif;
+                      transform: translateX(-32px);
+              }
+              /* #holidays */ p{
+                font-size: 17px;
+                transform: translateX(-33px);
+                text-align: start;
               }
 
 
